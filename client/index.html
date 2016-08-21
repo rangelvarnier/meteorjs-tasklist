@@ -1,0 +1,23 @@
+<head></head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">
+                    Tarefas
+            </a>
+            </div>
+
+            <div class="navbar-collapse colapse">
+                <ul class="nav navbar-nav navbar-right">
+                    {{> loginButtons}}
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        {{#if currentUser}} {{>novo }} {{>lista}} {{else}} Faça login {{/if}}
+    </main>
+</body>
