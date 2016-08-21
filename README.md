@@ -1,4 +1,4 @@
-lista de tarefas usando meteorjs
+lista de tarefas usando meteorJs
 
-Colocando em pratica as noções de meteors, utilizando helpers, events e methods fornecidos pelo meteor.
-Utilizado pluguin de autentição accounts-base e bootstrap-3
+Colocando em pratica as noções de meteorJs, utilizando helpers, events e methods fornecidos pelo Meteor.
+Utilizado pluguin de autenticação accounts-base e bootstrap-3.
